@@ -7,13 +7,13 @@ static const char *fonts[] = {
     "JetBrains Mono Medium:size=10:antialias=true:autohint=true",
     //"SauceCodePro Nerd Font:style=Semibold:size=10:autohint=true",
     "Hack Nerd Font:pixelsize=10:antialias=true:autohint=true",
-	"JoyPixels:pixelsize=8:antialias=true:autohint=true"
+	"JoyPixels:pixelsize=16:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#005577" },
+	[SchemeSel] = { "#eeeeee", "#3B7DCB" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
